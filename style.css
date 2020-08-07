@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+header {
+    background: #e8fcff;
+    box-shadow: -1px -1px 7px 0px #716d6d;
+    display: grid;
+    grid-template-columns: auto 100px 100px;
+    padding: 30px 200px;
+    font-size: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: initial;
+}
+
+article {
+	display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.container {
+	text-align: center;
+}
+.show-color, .btn {
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.show-color {
+	background: #000;
+	margin-bottom: 2.5rem;
+}
+.btn {
+	background: transparent;
+	border: 2px solid #000;
+	color: #000;
+	cursor: pointer;
+}
